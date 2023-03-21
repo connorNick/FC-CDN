@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_basic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Basic（最基本弹框）" />
+
+            <Button
+                android:id="@+id/b_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Action button（带按钮）" />
+
+            <Button
+                android:id="@+id/b_callback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Callbacks（带回调）" />
+
+            <Button
+                android:id="@+id/b_action_countdown_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Action button (确认倒计时)" />
+
+            <Button
+                android:id="@+id/b_action_countdown_n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Action button (取消倒计时)" />
+
+            <Button
+                android:id="@+id/b_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="icon" />
+
+            <Button
+                android:id="@+id/b_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="imageview" />
+
+            <Button
+                android:id="@+id/b_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="linespace（消息间距）" />
+
+            <Button
+                android:id="@+id/b_html"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Html（显示HTML）" />
+
+            <Button
+                android:id="@+id/b_html_callback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Html（重写HTML链接跳转）" />
+
+            <Button
+                android:id="@+id/b_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="input（输入框、实时回调）" />
+
+            <Button
+                android:id="@+id/b_input_wait"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="input（等待按钮回调）" />
+
+            <Button
+                android:id="@+id/b_input_muti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="input（多行）" />
+
+            <Button
+                android:id="@+id/b_input_valid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Custom Validation" />
+
+            <Button
+                android:id="@+id/b_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="progress" />
+
+            <Button
+                android:id="@+id/b_custom_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="custom_view" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

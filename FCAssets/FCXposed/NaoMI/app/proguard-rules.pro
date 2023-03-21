@@ -1,0 +1,1 @@
+-keep class plus.naomi.hook.XposedEntry

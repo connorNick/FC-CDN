@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_emulator">
+
+    <fragment
+        android:id="@+id/nav_hardware"
+        android:name="com.song.deviceinfo.ui.hardware.HardwareFragment"
+        android:label="@string/menu_hardware"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_net"
+        android:name="com.song.deviceinfo.ui.net.NetFragment"
+        android:label="@string/menu_net"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_thermal"
+        android:name="com.song.deviceinfo.ui.thermal.ThermalFragment"
+        android:label="@string/menu_thermal"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_battery"
+        android:name="com.song.deviceinfo.ui.battery.BatteryFragment"
+        android:label="@string/menu_battery"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_system"
+        android:name="com.song.deviceinfo.ui.system.SystemFragment"
+        android:label="@string/menu_system"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_build"
+        android:name="com.song.deviceinfo.ui.build.BuildInfoFragment"
+        android:label="@string/menu_build"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_partitions"
+        android:name="com.song.deviceinfo.ui.partitions.PartitionsFragment"
+        android:label="@string/menu_partitions"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.song.deviceinfo.ui.store.StoreFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.song.deviceinfo.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_applications"
+        android:name="com.song.deviceinfo.ui.applist.AppListFragment"
+        android:label="@string/menu_applications"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_codecs"
+        android:name="com.song.deviceinfo.ui.codecs.CodecFragment"
+        android:label="@string/menu_codecs"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_input"
+        android:name="com.song.deviceinfo.ui.input.InputFragment"
+        android:label="@string/menu_input"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_usb"
+        android:name="com.song.deviceinfo.ui.usb.USBFragment"
+        android:label="@string/menu_usb"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_soc"
+        android:name="com.song.deviceinfo.ui.soc.SOCFragment"
+        android:label="@string/menu_soc"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_emulator"
+        android:name="com.song.deviceinfo.ui.emulator.EmulatorFragment"
+        android:label="@string/menu_emulator"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_virtual"
+        android:name="com.song.deviceinfo.ui.virtual.VirtualAppFragment"
+        android:label="@string/menu_virtual"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_debug"
+        android:name="com.song.deviceinfo.ui.debug.DebugFragment"
+        android:label="@string/menu_debug"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_root"
+        android:name="com.song.deviceinfo.ui.root.RootFragment"
+        android:label="@string/menu_root"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_hook"
+        android:name="com.song.deviceinfo.ui.hook.HookFragment"
+        android:label="@string/menu_hook"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_device"
+        android:name="com.song.deviceinfo.ui.device.DeviceFragment"
+        android:label="@string/menu_device"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_app"
+        android:name="com.song.deviceinfo.ui.app.AppFragment"
+        android:label="@string/menu_app"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_wifi"
+        android:name="com.song.deviceinfo.ui.wifi.WifiFragment"
+        android:label="@string/menu_wifi"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_bluetooth"
+        android:name="com.song.deviceinfo.ui.bluetooth.BluetoothFragment"
+        android:label="@string/menu_bluetooth"
+        tools:layout="@layout/fragment_base" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.song.deviceinfo.ui.maps.MapsFragment"
+        android:label="@string/menu_maps"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_others"
+        android:name="com.song.deviceinfo.ui.others.OthersFragment"
+        android:label="@string/menu_others"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.song.deviceinfo.ui.settings.SettingsFragment"
+        android:label="@string/action_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.song.deviceinfo.ui.about.AboutFragment"
+        android:label="@string/action_about"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

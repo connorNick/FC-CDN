@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hardware"
+            android:icon="@mipmap/ic_action_home"
+            android:title="@string/menu_hardware" />
+        <item
+            android:id="@+id/nav_net"
+            android:icon="@mipmap/ic_action_net"
+            android:title="@string/menu_net" />
+        <item
+            android:id="@+id/nav_thermal"
+            android:icon="@mipmap/ic_action_thermal"
+            android:title="@string/menu_thermal" />
+        <item
+            android:id="@+id/nav_battery"
+            android:icon="@mipmap/ic_action_battery"
+            android:title="@string/menu_battery" />
+        <item
+            android:id="@+id/nav_system"
+            android:icon="@mipmap/ic_action_system"
+            android:title="@string/menu_system" />
+        <item
+            android:id="@+id/nav_build"
+            android:icon="@mipmap/ic_action_build"
+            android:title="@string/menu_build" />
+        <item
+            android:id="@+id/nav_partitions"
+            android:icon="@mipmap/ic_action_partitions"
+            android:title="@string/menu_partitions" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@mipmap/ic_action_memory"
+            android:title="@string/menu_store" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/ic_action_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_applications"
+            android:icon="@mipmap/ic_action_applications"
+            android:title="@string/menu_applications" />
+        <item
+            android:id="@+id/nav_codecs"
+            android:icon="@mipmap/ic_action_codecs"
+            android:title="@string/menu_codecs" />
+
+        <item
+            android:id="@+id/nav_input"
+            android:icon="@mipmap/ic_action_input"
+            android:title="@string/menu_input" />
+
+        <item
+            android:id="@+id/nav_usb"
+            android:icon="@mipmap/ic_action_usb"
+            android:title="@string/menu_usb" />
+
+        <item
+            android:id="@+id/nav_soc"
+            android:icon="@mipmap/ic_action_soc"
+            android:title="@string/menu_soc" />
+
+        <item
+            android:id="@+id/nav_emulator"
+            android:icon="@mipmap/ic_action_info_center"
+            android:title="@string/menu_emulator" />
+
+        <item
+            android:id="@+id/nav_virtual"
+            android:icon="@mipmap/ic_action_more_open"
+            android:title="@string/menu_virtual" />
+
+        <item
+            android:id="@+id/nav_debug"
+            android:icon="@mipmap/ic_action_debug"
+            android:title="@string/menu_debug" />
+
+        <item
+            android:id="@+id/nav_root"
+            android:icon="@mipmap/ic_action_root"
+            android:title="@string/menu_root" />
+
+        <item
+            android:id="@+id/nav_hook"
+            android:icon="@mipmap/ic_action_hook"
+            android:title="@string/menu_hook" />
+
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@mipmap/ic_action_devices"
+            android:title="@string/menu_device" />
+
+        <item
+            android:id="@+id/nav_app"
+            android:icon="@mipmap/ic_action_app"
+            android:title="@string/menu_app" />
+
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_action_wifi_scan_black_24dp"
+            android:title="@string/menu_wifi" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@mipmap/ic_action_maps"
+            android:title="@string/menu_maps" />
+
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/ic_action_bluetooth_scan_black_24dp"
+            android:title="@string/menu_bluetooth" />
+
+        <item
+            android:id="@+id/nav_others"
+            android:icon="@drawable/ic_action_others_black_24dp"
+            android:title="@string/menu_others" />
+    </group>
+
+    <item android:title="@string/nav_header_options">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_action_about"
+                android:title="@string/action_about" />
+        </menu>
+    </item>
+
+</menu>

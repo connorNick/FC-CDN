@@ -1,0 +1,80 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/preference_header">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="package_select"
+            app:summary="@string/package_select_summary"
+            app:title="@string/title_package_select" />
+        <EditTextPreference
+            android:key="package_name"
+            android:title="@string/title_package_name"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="certificate"
+            app:summaryOff="@string/certificate_summary_off"
+            app:summaryOn="@string/certificate_summary_on"
+            app:title="@string/certificate_proxy_enable" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="protocol"
+            android:summaryOff="@string/protocol_summary_off"
+            android:summaryOn="@string/protocol_summary_on"
+            android:title="@string/title_protocol"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="okhttp"
+            android:summaryOff="@string/okhttp_summary_off"
+            android:summaryOn="@string/okhttp_summary_on"
+            android:title="@string/title_okhttp"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="webView"
+            android:summaryOff="@string/webView_summary_off"
+            android:summaryOn="@string/webView_summary_on"
+            android:title="@string/title_web_view"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="web_debug"
+            app:summaryOff="@string/web_debug_summary_off"
+            app:summaryOn="@string/web_debug_summary_on"
+            app:title="@string/title_web_debug" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="js_alert"
+            app:summaryOff="@string/js_alert_summary_off"
+            app:summaryOn="@string/js_alert_summary_on"
+            app:title="@string/title_js_alert" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/hook_method_header">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="json"
+            app:summaryOff="@string/json_summary_off"
+            app:summaryOn="@string/json_summary_on"
+            app:title="@string/json_hook_enable" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="crypto"
+            app:summaryOff="@string/crypto_summary_off"
+            app:summaryOn="@string/crypto_summary_on"
+            app:title="@string/crypto_enable" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

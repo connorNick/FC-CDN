@@ -1,0 +1,32 @@
+{
+    "apps": [
+        {
+            "name": "Xposed-AdBlocker",
+            "version": "1.0",
+            "description": "admobの広告を非表示にします",
+            "icon": "images/none.png",
+            "githubRepo": "https://github.com/auag0/Xposed-Modules/tree/main/Xposed-AdBlocker"
+        },
+        {
+            "name": "Xposed-Image-Saver",
+            "version": "1.0",
+            "description": "ImageViewの画像を保存します",
+            "icon": "images/none.png",
+            "githubRepo": "https://github.com/auag0/Xposed-Modules/tree/main/Xposed-Image-Saver"
+        },
+        {
+            "name": "Xposed-View-Debug",
+            "version": "1.0",
+            "description": "クリックしたViewのサイズをdialogで表示します",
+            "icon": "images/none.png",
+            "githubRepo": "https://github.com/auag0/Xposed-Modules/tree/main/Xposed-View-Debug"
+        },
+        {
+            "name": "Twitch-Mod",
+            "version": "1.0",
+            "description": "画面上にチャットを表示など,便利機能を追加します。",
+            "icon": "images/none.png",
+            "githubRepo": "https://github.com/auag0/Xposed-Modules/tree/main/Twitch-Mod"
+        }
+    ]
+}

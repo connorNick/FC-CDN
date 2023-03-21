@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mod_settings">Mod Settings</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="auto_claim_points">Auto Claim Points</string>
+    <string name="ad_block">AdBlock</string>
+    <string name="restart_settings_message">Changes in settings may require a restart</string>
+</resources>

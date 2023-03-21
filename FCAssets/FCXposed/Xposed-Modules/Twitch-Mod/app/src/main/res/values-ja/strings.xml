@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mod_settings">Modの設定</string>
+    <string name="settings">設定</string>
+    <string name="save">保存</string>
+    <string name="cancel">閉じる</string>
+    <string name="auto_claim_points">ボーナスポイントを自動で受け取る</string>
+    <string name="ad_block">広告ブロック</string>
+    <string name="restart_settings_message">設定の変更により再起動が必要な場合があります。</string>
+</resources>

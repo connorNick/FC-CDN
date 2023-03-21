@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">easyHook</string>
+    <string name="string">string</string>
+    <string name="tip">提示：\n  1.长按悬浮窗可复制hook结果到剪切板。\n  2.现在参数列表可以不用填写了，会根据方法名自动遍历。</string>
+</resources>

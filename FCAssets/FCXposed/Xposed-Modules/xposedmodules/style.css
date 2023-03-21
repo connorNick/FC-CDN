@@ -1,0 +1,26 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+}
+
+.app-card img {
+    width: 100px;
+}
+
+.app-card a{
+    color: black;
+}
+
+.app-card h2 {
+    margin: 0;
+}
+
+.app-card p {
+    margin: 0;
+}

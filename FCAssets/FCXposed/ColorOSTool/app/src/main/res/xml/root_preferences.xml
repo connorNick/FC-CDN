@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/HelpInfo_title"
+        app:summary="@string/HelpInfo_summary"
+        app:iconSpaceReserved="false">
+
+
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$SafeCenterFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/safecenter_header"
+        app:key="safe_center_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$LauncherFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/launcher_header"
+        app:key="launcher_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$PackageInstallerFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/packageinstaller_header"
+        app:key="packageinstaller_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$SettingsFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/system_settings_header"
+        app:key="system_settings_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$GameSpaceFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/gamespace_header"
+        app:key="game_space_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$SystemUiFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/systemui_header"
+        app:summary="@string/reboot_phone"
+        app:key="systemui_header"/>
+
+    <Preference app:fragment="com.oosl.colorostool.activity.SettingsActivity$AndroidFragment"
+        app:iconSpaceReserved="false"
+        app:title="@string/android_header"
+        app:summary="@string/reboot_phone"
+        app:key="android_header"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/costool_settings"
+        app:iconSpaceReserved="false">
+
+    <SwitchPreferenceCompat
+        app:key="hide_icon"
+        app:title="@string/hide_icon_title"
+        app:defaultValue="false"
+        app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/costool_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="author"
+            app:summary="@string/author_list"
+            app:title="@string/author"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/github_url" />
+        </Preference>
+
+        <Preference
+            app:key="tg"
+            app:title="@string/tg_title"
+            app:summary="@string/tg_summary"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/tg_group_url"/>
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
